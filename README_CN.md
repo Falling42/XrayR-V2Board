@@ -63,17 +63,17 @@ ApiKey: "YOUR_TOKEN" # 修改这里
 
 2. 修改 `install.sh` 文件的203行，将用户名 `missuo` 修改为你自己的GitHub用户名。
 ```
-wget https://raw.githubusercontent.com/Falling42/XrayR-V2Borad/master/config.yml -O /etc/XrayR/config.yml
+wget https://gh-proxy.net/github.com/Falling42/XrayR-V2Board/blob/master/config.yml -O /etc/XrayR/config.yml
 ```
 
 3. 修改下面链接的用户名 `missuo` 为你自己的GitHub用户名，完成配置一键安装脚本命令。
 ### x86_64
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Falling42/XrayR-V2Borad/master/install.sh)
+bash <(curl -Ls https://gh-proxy.net/github.com/Falling42/XrayR-V2Board/blob/master/install.sh)
 ```
 ### ARM_64
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Falling42/XrayR-V2Borad/master/install-arm.sh)
+bash <(curl -Ls https://gh-proxy.net/github.com/Falling42/XrayR-V2Board/blob/master/install-arm.sh)
 ```
 
 4. 在 `V2Board` 面板上完成基本节点信息的填写。

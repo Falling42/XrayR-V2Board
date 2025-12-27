@@ -8,9 +8,9 @@
  * 
  * Copyright © 2022 by Vincent, All Rights Reserved. 
 -->
-English | [简体中文](https://github.com/missuo/XrayR-V2Board/blob/main/README_CN.md)
+English | [简体中文](./README_CN.md)
 
-[Speed up your nodes with Amazon CDN (CloudFront)](https://github.com/missuo/XrayR-V2Board/blob/main/CloudFront.md)
+[Speed up your nodes with Amazon CDN (CloudFront)](./CloudFront.md)
 
 ## Description
 1. Thanks to `XrayR` all authors for their contributions
@@ -59,12 +59,12 @@ ApiKey: "YOUR_TOKEN" # Modify here
 ```
 2. Modify line 224 of the `install.sh` file to change the username `missuo` to your own GitHub username.
 ```
-wget https://raw.githubusercontent.com/Falling42/XrayR-V2Borad/master/config.yml -O /etc/XrayR/config.yml
+wget https://gh-proxy.net/github.com/Falling42/XrayR-V2Board/blob/master/config.yml -O /etc/XrayR/config.yml
 ```
 3. Change the username `missuo` in the link below to your own GitHub username to complete the configuration of the one-click install script command.
 ### Install Command
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Falling42/XrayR-V2Borad/master/install.sh)
+bash <(curl -Ls https://gh-proxy.net/github.com/Falling42/XrayR-V2Board/blob/master/install.sh)
 ```
 4. Complete the basic node information on the `V2Board` panel.
 ![Screenshot](https://telegra.ph/file/7cb5896547db0c9c747a0.png)

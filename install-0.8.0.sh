@@ -200,7 +200,7 @@ install_XrayR() {
 
     # Writing json
     echo "正在尝试写入配置文件..."
-    wget https://raw.githubusercontent.com/Falling42/XrayR-V2Borad/master/config.yml -O /etc/XrayR/config.yml
+    wget https://gh-proxy.net/github.com/Falling42/XrayR-V2Board/blob/master/config.yml -O /etc/XrayR/config.yml
     sed -i "s/NodeID:.*/NodeID: ${node_id}/g" /etc/XrayR/config.yml
     sed -i "s/NodeType:.*/NodeType: ${node_type}/g" /etc/XrayR/config.yml
     echo ""
